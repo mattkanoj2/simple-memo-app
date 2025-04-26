@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SimpleMemoApp</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>SimpleMemoApp</h1>
+            <button id="theme-toggle" title="テーマ切り替え">🌓</button>
+        </div>
+        
+        <div class="search-bar">
+            <input type="text" id="search-input" placeholder="メモを検索...">
+        </div>
+        
+        <div class="memo-form">
+            <textarea id="memo-input" placeholder="新しいメモを入力..."></textarea>
+            <button id="save-button">保存</button>
+        </div>
+        
+        <div class="memo-list" id="memo-list">
+            <!-- メモがここに表示されます -->
+        </div>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
